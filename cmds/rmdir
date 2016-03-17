@@ -10,10 +10,12 @@ echo "The rmdir command is used to remove empty directories. This command will f
 echo "------------"
 
 # the command's syntax
+
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "rmdir [ -p | -v ] [DIRECTORY]"
+echo -e "\t-p: Using rmdir with the –p flag tells bash to remove all of the directories in the path including the parent.”
+echo -e "\t-v: Using rmdir with the –v flag will ensure a diagnostic output is displayed for every directory affected by the rmdir command.”
+
 #   ...      etc
 
 echo "------------"
