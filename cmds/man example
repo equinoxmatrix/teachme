@@ -1,0 +1,9 @@
+
+# example 1
+echo “man –K grep"
+echo "This searches all man pages for command grep. ”
+ 
+# example 2
+echo "man –c grep”
+echo "This command will format a cat page in the subdirectory for a command and format it to the screen.”
+ 
