@@ -1,0 +1,10 @@
+i dont' have a curl branch
+
+
+# example 1
+echo “curl –O http://www.google.com"
+echo "This writes the output to a file named google.com.”
+ 
+# example 2
+echo "curl -# http://www.google.com”
+echo "The -# flag will tell bash to display a progress bar while downloading.”
