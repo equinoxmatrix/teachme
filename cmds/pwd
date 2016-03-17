@@ -10,10 +10,12 @@ echo "The command pwd prints the current working directory to the console. The c
 echo "------------"
 
 # the command's syntax
+
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "pwd [ -L | -P ]"
+echo -e "\t-L: This is the default behavior. It prints the path to the present working directory and includes symbolic links if there are any.”
+echo -e "\t-P: This prints the actual direct path to the present working directory while excluding symbolic links.”
+
 #   ...      etc
 
 echo "------------"
