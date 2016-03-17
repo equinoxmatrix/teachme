@@ -12,10 +12,13 @@ echo "This is one of the most useful tools for networking and network troublesho
 echo "------------"
 
 # the command's syntax
+
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "ping [ -c [COUNT] | -s [PACKETSIZE] | -W [TIMEOUT]”
+echo -e "\t-c: Using ping with the –c [COUNT] flag tells ping when to stop sending packets after a number of requests.”
+echo -e "\t-s: Using ping with the –s [PACKETSIZE] flag specifies the number of data bytes to be sent.”
+echo -e "\t-W: Using ping with –W [TIMEOUT] flag sets the amount of time to wait in seconds for a reply”
+
 #   ...      etc
 
 echo "------------"
