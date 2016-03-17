@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "git checkout [-b |  -t |-track] <branch>"
+echo -e "\t-b: The git pull command in conjuction with a –b flag causes a new branch to be created as if git branch were called and then checked out. In this case, use the –track or –no-track options.”
+echo -e "\t-t | -track: When creating a new branch, the track option configures git to use the start point branch as the upstream repository.”
 #   ...      etc
 
 echo "------------"
