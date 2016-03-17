@@ -19,13 +19,15 @@ echo -e "\t-<num>: Sets the number of lines to display per page."
 echo "------------"
 
 # the command's usage examples
-# example 1
-echo "test"
-echo description here
 
+# example 1
+echo "more –d filename"
+echo "This instructs bath to add instructions for paging in more while viewing the file contents.”
+ 
 # example 2
-echo "test something"
-echo description here
+echo "more -5 filename”
+echo "This tells bash to show only 5 lines of the file contents at a time before paging.”
+
 
 
 exit 0
