@@ -1,0 +1,14 @@
+cp example
+
+
+# example 1
+echo “cp –i file1 file2"
+echo "If file2 exists, the –i flag will ensure bash prompts the user to confirm override.”
+ 
+# example 2
+echo "cp –R directory1 directory2”
+echo "This command will copy one directory into another and recursively include all the contents within the source directory.”
+ 
+# example 3
+echo "cp –t directory1 directory2”
+echo "This command will make sure all contents in directory1 are copied into directory2.”
