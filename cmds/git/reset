@@ -10,10 +10,10 @@ echo "Used to reset the HEAD to a earlier, specified version. A reset is often u
 echo "------------"
 
 # the command's syntax
-echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo “Syntax”
+echo "git reset [--soft | --hard] <HEAD>"
+echo -e "\t-soft: A soft reset in git is appropriate when you committed something that was incomplete or if you misspelled your commit message. In this case you would run a git reset –soft, make the edit, and recommit.”
+echo -e "\t-hard: A hard reset will undo a commit but this should NEVER be done if someone has already merged the changes into their repository.”
 #   ...      etc
 
 echo "------------"
