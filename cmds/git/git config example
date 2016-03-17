@@ -1,0 +1,8 @@
+
+# example 1
+echo “git config –global -e"
+echo "This command will edit the global config for git instead of the config for the local repository. It opens the config file in an editor.”
+ 
+# example 2
+echo "git config --get core.filemode”
+echo "This will display the value for the specified key (filemode).”
