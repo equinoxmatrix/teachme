@@ -10,10 +10,13 @@ echo "Shows the status of the git working tree. When this command is entered in 
 echo "------------"
 
 # the command's syntax
+
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "git status [-long |  -s | -v ]"
+echo -e "\t-long: This is the default behavior. “
+echo -e "\t-s: This prints the output in a PATH1 à PATH2 format.”
+echo -e "\t-v: This shows the files that will be changed and also the textual changes to the file.”
+
 #   ...      etc
 
 echo "------------"
