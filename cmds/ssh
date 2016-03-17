@@ -11,9 +11,9 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "ssh [ -b [BINDADDRESS] | -c [CIPHERSPEED]”
+echo -e "\t-b: Using the –b flag specifies a bind address, but this is only useful on machines with multiple addresses.”
+echo -e "\t-c: Using the –c flag allows for the specification of an encryption protocol such as triple-DES.”
 #   ...      etc
 
 echo "------------"
