@@ -19,13 +19,15 @@ echo -e "\t-u: Moves only the files that do not exist in the destination directo
 echo "------------"
 
 # the command's usage examples
-# example 1
-echo "test"
-echo description here
 
+# example 1
+echo "mv –S=$ /path/to/source /path/to/destination"
+echo "This replaces the usual ~ in the file path to the $ character. ”
+ 
 # example 2
-echo "test something"
-echo description here
+echo "mv -u /path/to/source /path/to/destination”
+echo "This moves the file only when the SOURCE file is newer than the destination.”
+
 
 
 exit 0
