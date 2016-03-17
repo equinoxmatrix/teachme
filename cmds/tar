@@ -10,10 +10,13 @@ echo "The tar command is used to archive files into a single file as well as rev
 echo "------------"
 
 # the command's syntax
+
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "tar [ -c | -d | -r] [tar name] [file1 file 2]"
+echo -e "\t-c: Using tar with the –c flag will create a new archive named [tar name] that contains the files [file1 file2].”
+echo -e "\t-d: Using tar with the –d flag will find the differences between [tar name] and the files [file1 file2].”
+echo -e "\t-r: Using tar with the –r flag will append the files [file1 file2] to the  archive named [tar name].”
+
 #   ...      etc
 
 echo "------------"
