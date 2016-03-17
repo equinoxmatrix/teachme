@@ -1,0 +1,10 @@
+i don't have the real file
+
+
+# example 1
+echo “git init –bare directoryName"
+echo "This creates a git repository that does not have a working tree. Bare repos are used for sharing only. No edits are made within the repo and so a working tree is not needed.”
+ 
+# example 2
+echo "git init –q directoryName”
+echo "The –q flag suppresses all output messages except for errors.”
