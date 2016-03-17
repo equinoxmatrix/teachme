@@ -1,0 +1,8 @@
+
+# example 1
+echo “git diff --cached"
+echo "This command shows the differences between the index and your most recent commit.”
+ 
+# example 2
+echo "git diff -HEAD”
+echo "This command shows the differences between your working directory and the most recent commit.”
