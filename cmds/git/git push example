@@ -1,0 +1,8 @@
+
+# example 1
+echo “git push -all"
+echo "This command pushes all changes in all branches to the repository.”
+ 
+# example 2
+echo "git push -force”
+echo "This command has the potential to overwrite changes that have not been properly merged into the repo.”
