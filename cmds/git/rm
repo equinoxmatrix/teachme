@@ -10,10 +10,10 @@ echo "Much like the command line version of rm, git rm removes a file. With git 
 echo "------------"
 
 # the command's syntax
-echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo “Syntax”
+echo "git rm [-f | --cached] <file>"
+echo -e "\t-f: The git rm command is designed to remove files both from the working tree and the index. A built in requirement to executing this command is that the file specified must be identical in both locations. The –f flag allows you to remove a file even if the file has been changed in either location.”
+echo -e "\t-cached: The cached option allows a file to be removed from the index only.”
 #   ...      etc
 
 echo "------------"
