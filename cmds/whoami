@@ -10,10 +10,11 @@ echo "The whoami command prints the name of the user logged into the current she
 echo "------------"
 
 # the command's syntax
+
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "whoami”
+echo -e "\t- There are no flags associated with this command.”
+
 #   ...      etc
 
 echo "------------"
