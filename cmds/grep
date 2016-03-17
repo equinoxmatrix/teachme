@@ -10,10 +10,12 @@ echo "The command grep is used to search text for supplied patterns. This powerf
 echo "------------"
 
 # the command's syntax
+
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "grep [ -f | -g ] [PATTERN]"
+echo -e "\t-f: Using grep with a –f flag followed by a pattern tells grep to interpret the pattern as a list of fixed strings separated by new lines.”
+echo -e "\t-g: Using grep with a –g flag followed by a pattern tells grep to interpret the pattern as a REGEX expression.”
+
 #   ...      etc
 
 echo "------------"
