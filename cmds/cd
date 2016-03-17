@@ -19,13 +19,15 @@ echo -e "\t-P: This will cause cd to only use the physical directory structure, 
 echo "------------"
 
 # the command's usage examples
-# example 1
-echo "test"
-echo description here
 
+# example 1
+echo "cd -L myDirectory"
+echo "This changes the directory to the myDirectory foldercd –P .”
+ 
 # example 2
-echo "test something"
-echo description here
+echo "cd -P C:/Users”
+echo "The file path includes the symbolic characters in the path file.”
+
 
 
 exit 0
