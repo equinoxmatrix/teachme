@@ -1,0 +1,8 @@
+
+# example 1
+echo “chmod -R +x myDirectory"
+echo "This command will add executable permissions recursively for every file in myDirectory.”
+ 
+# example 2
+echo " chmod -c +x myDirectory”
+echo "This will out messages only if a change was made to a file.”
