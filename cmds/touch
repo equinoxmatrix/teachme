@@ -10,10 +10,12 @@ echo "The touch command is an easy way to create new, empty files. Touch is also
 echo "------------"
 
 # the command's syntax
+
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "touch [ -c | -a ] file_name1 filename2"
+echo -e "\t-c: Using touch without any flags will create a file if it does not exist already. Adding the –c flag will prevent the creation of new files.”
+echo -e "\t-a: This flag allows a user to change the access time of the file to the current time.”
+
 #   ...      etc
 
 echo "------------"
