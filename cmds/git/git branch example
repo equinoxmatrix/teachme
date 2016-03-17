@@ -1,0 +1,8 @@
+
+# example 1
+echo “git branch –d branchName"
+echo "This command deletes branchName from the repo.”
+ 
+# example 2
+echo "git branch -all”
+echo "This command has the potential to overwrite changes that have not been properly merged into the repo.”
